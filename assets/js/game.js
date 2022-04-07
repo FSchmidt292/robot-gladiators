@@ -5,7 +5,12 @@ var playerMoney = 10;
 //log multiple values into console
 console.log(playerName, playerAttack, playerHealth);
 
-var enemyName = "Roborto";
+var enemyNames = ["Roborto the foolish", "Amy Android", "Robo Trumble"];
+
+for (var i = 0; i < enemyNames.length; i++) {
+    console.log(enemyNames[i]);
+}
+
 var enemyHealth = 50;
 var enemyAttack = 12;
 
@@ -48,4 +53,4 @@ window.alert(
     fight();
 };
 
-fight();
+// fight();
